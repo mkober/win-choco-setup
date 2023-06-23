@@ -1,6 +1,5 @@
-# Set-ExecutionPolicy RemoteSigned
-
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+# Need to set policy before running the script
+# Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 choco install adobereader -y
 choco install firefox -y
@@ -11,7 +10,6 @@ choco install gimp -y
 choco install slack -y
 choco install dropbox -y
 choco install googledrive -y
-choco install spotify -y
 choco install inkscape -y
 choco install powertoys -y
 choco install virtualbox -y
