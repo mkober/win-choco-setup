@@ -38,6 +38,7 @@ choco install nodejs -y
 choco install steam -y
 choco install epicgameslauncher -y
 choco install vscode -y
+choco install kindle -y
 
 git config --global user.email "mkoberlein@gmail.com"
 git config --global user.name "Mark Koberlein"
