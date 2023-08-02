@@ -41,6 +41,7 @@ choco install vscode -y
 choco install kindle -y
 choco install jetbrainstoolbox -y
 choco install signal -y
+choco install logitechgaming -y
 
 git config --global user.email "mkoberlein@gmail.com"
 git config --global user.name "Mark Koberlein"
